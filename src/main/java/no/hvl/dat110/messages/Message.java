@@ -25,7 +25,7 @@ public abstract class Message {
 	@Override
 	public String toString() {
 		return "Message [type=" + type + ", user=" + user + "]";
-	};
+	}
 	
 	
 }
