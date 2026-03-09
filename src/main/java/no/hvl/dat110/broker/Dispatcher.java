@@ -165,7 +165,7 @@ public class Dispatcher extends Stopable {
 		Set<String> subscribers = storage.getSubscribers(msg.getTopic());
 
 		if (subscribers == null || subscribers.isEmpty()) {
-			System.out.println("No subscribers for topic: " + msg.getTopic());
+			Logger.log("No subscribers for topic: " + msg.getTopic());
 			return;
 		}
 
